@@ -7,11 +7,15 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    font-size: 40px;
+}
+
 .name-color {
     color: orangered;
 }
 
-section {
+.flexible-container {
     display: flex;
     margin-bottom: 120px;
 }
@@ -50,4 +54,31 @@ section {
 
 .para-style {
     padding-right: 15%;
+}
+
+.development-skill {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.skill-desc {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 50px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px rgb(77, 77, 74);
+}
+
+#fullstack-dev {
+    border-left: 7px solid orangered;
+}
+
+#junior-dev {
+    border-left: 7px solid blue;
+}
+
+footer p {
+    text-align: center;
 }
